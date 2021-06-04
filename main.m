@@ -61,14 +61,14 @@ CDFm = zeros(length(T),1);
 CDFa = zeros(length(T),1);
 
 for ii=1:length(T)
-    ii
+    %% Monte Carlo    
     for kk=1:Mc
 
         if R(kk) <T(ii)
             CDFm(ii) = CDFm(ii) + 1;
         end
     end
-
+%% Analytical    
     CDFa(ii)=DoubleKappaMuShadowedCDF(kappa,mu,ms,md,rhat,L,T(ii));
 end
 
