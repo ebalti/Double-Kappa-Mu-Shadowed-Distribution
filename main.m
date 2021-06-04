@@ -37,6 +37,7 @@ p = ones(mu,1);
 q = ones(mu,1);
 d = sqrt(sum(p.^2 + q.^2));
 kappa = d^2/(2*mu);
+
 %% Gaussian Components (X and Y are independent)
 X = randn(mu,Mc);
 Y = randn(mu,Mc);
