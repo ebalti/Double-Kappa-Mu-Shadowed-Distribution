@@ -6,7 +6,7 @@
 % The University of Texas at Austin
 %
 % If you use this code or any (modified) part of it in any publication, please cite 
-% the following papers: 
+% the following paper: 
 %
 % N. Mensi, D. B. Rawat and E. Balti
 % "PLS for V2I Communications Using Friendly Jammer and Double kappa-mu Shadowed Fading,"
